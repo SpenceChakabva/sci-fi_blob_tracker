@@ -6,7 +6,8 @@ import random
 from math import sin
 
 # === CONFIG ===
-video_path = "C:\\Users\\spencer.AD-TCP\\Downloads\\test1.mp4"
+video_folder = "input"  # Folder containing the video file
+video_path = os.path.join(video_folder, "test1.mp4")
 image_folder = "img_e"  # Folder containing 1.jpg to 8.jpg
 target_fps = 30
 window_size = (800, 600)
